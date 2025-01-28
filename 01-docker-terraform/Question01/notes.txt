@@ -1,0 +1,12 @@
+docker run -it --entrypoint=bash python:3.12.8
+
+$ docker run -it --entrypoint=bash python:3.12.8
+Unable to find image 'python:3.12.8' locally
+3.12.8: Pulling from library/python
+Digest: sha256:5893362478144406ee0771bd9c38081a185077fb317ba71d01b7567678a89708
+Status: Downloaded newer image for python:3.12.8
+root@22ec688e6239:/# pwd
+/
+root@22ec688e6239:/# pip --version
+pip 24.3.1 from /usr/local/lib/python3.12/site-packages/pip (python 3.12)
+root@22ec688e6239:/# 
