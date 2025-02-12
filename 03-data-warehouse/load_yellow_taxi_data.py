@@ -11,11 +11,6 @@ BUCKET_NAME = "dezoomcamp_hw3_2025_clean-wonder-450116-p0"
 #If you authenticated through the GCP SDK you can comment out these two lines
 CREDENTIALS_FILE = "zoomcamp_gcp.json"  
 client = storage.Client.from_service_account_json(CREDENTIALS_FILE)
-#export GOOGLE_APPLICATION_CREDENTIALS=gcp.json
-#echo $GOOGLE_APPLICATION_CREDENTIALS
-#unset GOOGLE_APPLICATION_CREDENTIALS
-#client = storage.Client.from_service_account_json(GOOGLE_APPLICATION_CREDENTIALS)
-
 
 BASE_URL = "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-"
 MONTHS = [f"{i:02d}" for i in range(1, 7)] 
